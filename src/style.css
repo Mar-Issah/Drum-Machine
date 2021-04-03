@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(242, 211, 133);
+  font-family: "Lobster", cursive;
+  min-height: 100vh;
+  
+}
+
+h1 {
+  background-color: rgb(179, 134, 16);
+  box-shadow: 0 3px 1px black;
+  width: 491px;
+  
+}
+#drum-machine {
+  margin: 0 auto;
+  background-color: rgb(242, 224, 177);
+  border: 5px solid rgb(179, 134, 16);
+  width: 500px;
+  height: 485px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#display {
+  background-color: rgb(242, 242, 242);
+  margin: auto;
+  height: 60px;
+  width: 300px;
+  border-radius: 1rem;
+  margin-top: 2.5rem;
+}
+
+#drumpad-container {
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(20px, 100px));
+  grid-template-rows: 60px 60px 60px;
+  grid-gap: 1rem;
+}
+
+.drum-pad {
+  cursor: pointer;
+  background-color: rgb(179, 134, 16);
+  color: rgb(242, 242, 242);
+  box-shadow: 3px 3px 3px rgb(0, 0, 0); 
+  border-radius: 1rem;
+  transition: all 200ms ease-in-out;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+}
