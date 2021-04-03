@@ -46,7 +46,7 @@ This project was created outside the react environment using CDN links. You can 
 
 The app consists of an editor and a previewer. A user types input in Markdown syntax into the editor and sees formatted output next to it in the previewer/result.
 
-[Click here](https://codepen.io/marsiya-issah/full/qBqPExB) to view project on CodePen
+[Click here](https://codepen.io/marsiya-issah/full/vYyewqR) to view project on CodePen
 
 ![Drum Machine](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617411021/My%20Website%20Projects/drum_machine2_p7t4yl.png)
 
